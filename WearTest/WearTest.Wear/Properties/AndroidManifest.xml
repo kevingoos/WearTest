@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.infrabel.amdm.wear" android:installLocation="preferExternal">
+	<uses-sdk android:minSdkVersion="25" />
+	<uses-feature android:name="android.hardware.type.watch" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<application android:label="@string/ApplicationName" android:theme="@android:style/Theme.DeviceDefault" android:icon="@drawable/ic_logo"></application>
+</manifest>
